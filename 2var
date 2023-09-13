@@ -9,7 +9,7 @@ int calculateVariant2(std::string firstName, int numVariants) {
 int main() {
   std::string surname = "Иванов"; // можно заменить фамилию студента
   std::string firstName = "Иван"; // можно заменить имя студента
-  int numVariants = 10; // можно заменить на число варинатов
+  int numVariants = 2; // можно заменить на число варинатов
 
   int variant1 = calculateVariant1(surname, numVariants);
   int variant2 = calculateVariant2(firstName, numVariants);
